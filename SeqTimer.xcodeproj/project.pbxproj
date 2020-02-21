@@ -10,12 +10,12 @@
 		720A15F324004D3F000A6027 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A15F224004D3F000A6027 /* AppDelegate.swift */; };
 		720A15F524004D3F000A6027 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A15F424004D3F000A6027 /* SceneDelegate.swift */; };
 		720A15F824004D3F000A6027 /* SeqTimer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 720A15F624004D3F000A6027 /* SeqTimer.xcdatamodeld */; };
-		720A15FA24004D3F000A6027 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A15F924004D3F000A6027 /* ContentView.swift */; };
 		720A15FC24004D41000A6027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720A15FB24004D41000A6027 /* Assets.xcassets */; };
 		720A15FF24004D41000A6027 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 720A15FE24004D41000A6027 /* Preview Assets.xcassets */; };
 		720A160224004D41000A6027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 720A160024004D41000A6027 /* LaunchScreen.storyboard */; };
 		720A160D24004D41000A6027 /* SeqTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A160C24004D41000A6027 /* SeqTimerTests.swift */; };
 		720A161824004D41000A6027 /* SeqTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A161724004D41000A6027 /* SeqTimerUITests.swift */; };
+		720A162624005520000A6027 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A162524005520000A6027 /* TimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,7 +40,6 @@
 		720A15F224004D3F000A6027 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		720A15F424004D3F000A6027 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		720A15F724004D3F000A6027 /* SeqTimer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SeqTimer.xcdatamodel; sourceTree = "<group>"; };
-		720A15F924004D3F000A6027 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		720A15FB24004D41000A6027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		720A15FE24004D41000A6027 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		720A160124004D41000A6027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +50,7 @@
 		720A161324004D41000A6027 /* SeqTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeqTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		720A161724004D41000A6027 /* SeqTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeqTimerUITests.swift; sourceTree = "<group>"; };
 		720A161924004D41000A6027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		720A162524005520000A6027 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +103,12 @@
 			children = (
 				720A15F224004D3F000A6027 /* AppDelegate.swift */,
 				720A15F424004D3F000A6027 /* SceneDelegate.swift */,
-				720A15F924004D3F000A6027 /* ContentView.swift */,
 				720A15FB24004D41000A6027 /* Assets.xcassets */,
 				720A160024004D41000A6027 /* LaunchScreen.storyboard */,
 				720A160324004D41000A6027 /* Info.plist */,
 				720A15F624004D3F000A6027 /* SeqTimer.xcdatamodeld */,
 				720A15FD24004D41000A6027 /* Preview Content */,
+				720A162524005520000A6027 /* TimerView.swift */,
 			);
 			path = SeqTimer;
 			sourceTree = "<group>";
@@ -272,7 +272,7 @@
 			files = (
 				720A15F324004D3F000A6027 /* AppDelegate.swift in Sources */,
 				720A15F824004D3F000A6027 /* SeqTimer.xcdatamodeld in Sources */,
-				720A15FA24004D3F000A6027 /* ContentView.swift in Sources */,
+				720A162624005520000A6027 /* TimerView.swift in Sources */,
 				720A15F524004D3F000A6027 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

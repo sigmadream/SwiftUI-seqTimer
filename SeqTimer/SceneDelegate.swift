@@ -17,11 +17,11 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
 
-        let contentView = ContentView().environment(\.managedObjectContext, context)
+        let timerView = TimerView().environment(\.managedObjectContext, context)
 
         if let windowScene = scene as? UIWindowScene {
             let window = UIWindow(windowScene: windowScene)
-            window.rootViewController = UIHostingController(rootView: contentView)
+            window.rootViewController = UIHostingController(rootView: timerView)
             self.window = window
             window.makeKeyAndVisible()
         }

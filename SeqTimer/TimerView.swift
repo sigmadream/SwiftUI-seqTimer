@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  TimerView.swift
 //  SeqTimer
 //
 //  Created by Sangkon Han on 2020/02/22.
@@ -8,14 +8,14 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct TimerView: View {
     var body: some View {
-        Text("Hello, World!")
+        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct TimerView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        TimerView()
     }
 }
