@@ -16,6 +16,7 @@
 		720A160D24004D41000A6027 /* SeqTimerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A160C24004D41000A6027 /* SeqTimerTests.swift */; };
 		720A161824004D41000A6027 /* SeqTimerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A161724004D41000A6027 /* SeqTimerUITests.swift */; };
 		720A162624005520000A6027 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A162524005520000A6027 /* TimerView.swift */; };
+		720A162824005672000A6027 /* CircleTimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A162724005672000A6027 /* CircleTimerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		720A161724004D41000A6027 /* SeqTimerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeqTimerUITests.swift; sourceTree = "<group>"; };
 		720A161924004D41000A6027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		720A162524005520000A6027 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		720A162724005672000A6027 /* CircleTimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleTimerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				720A15F624004D3F000A6027 /* SeqTimer.xcdatamodeld */,
 				720A15FD24004D41000A6027 /* Preview Content */,
 				720A162524005520000A6027 /* TimerView.swift */,
+				720A162724005672000A6027 /* CircleTimerView.swift */,
 			);
 			path = SeqTimer;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 			files = (
 				720A15F324004D3F000A6027 /* AppDelegate.swift in Sources */,
 				720A15F824004D3F000A6027 /* SeqTimer.xcdatamodeld in Sources */,
+				720A162824005672000A6027 /* CircleTimerView.swift in Sources */,
 				720A162624005520000A6027 /* TimerView.swift in Sources */,
 				720A15F524004D3F000A6027 /* SceneDelegate.swift in Sources */,
 			);

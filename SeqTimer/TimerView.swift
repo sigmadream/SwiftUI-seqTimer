@@ -10,7 +10,16 @@ import SwiftUI
 
 struct TimerView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 80) {
+            Text("00:00.00").font(.largeTitle)
+            VStack(spacing: 20) {
+                ForEach(0..<3) { i in
+                    HStack(alignment: .center, spacing: 0) {
+                        CircleTimerView()
+                    }
+                }
+            }
+        }.padding()
     }
 }
 
